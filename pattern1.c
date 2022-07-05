@@ -5,17 +5,15 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        for(j=0;j<n;j++)
+        for(j=0;j<i;j++)
         {
-            if(i>=j)
             printf("*");
-            else
-            printf(" ");
         }
         printf("\n");
     }
     return 0;
 }
+//n*(n+1)/2 is the tc after removin if condition
 //e.g. n=10
 //*
 //**
